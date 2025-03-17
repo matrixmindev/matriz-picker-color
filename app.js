@@ -11,7 +11,7 @@ let darkMode = true //estado
 const containerColor = (colorHex) => {
     return (
         `<div class="container-color" style="background-color: #${colorHex}">
-                <small class="container-small"  style="color: #3ECF8E;">${colorHex ? colorHex : 'next' } </small>
+                <small class="container-small"  style="color: #3ECF8E;">#${colorHex ? colorHex : 'next' } </small>
         </div>`
     )
 }
