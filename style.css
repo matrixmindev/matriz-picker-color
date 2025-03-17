@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Permanent+Marker&family=Playpen+Sans:wght@100..800&display=swap');
 * {
-    font-family: cursive;
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 body {
     transition: all .4s ease
