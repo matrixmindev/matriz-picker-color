@@ -35,3 +35,14 @@ button.addEventListener('click', (e) => {
     }
     
 })
+
+const colorContainer = document.querySelectorAll('.container-color')
+
+for (let i = 0; i < colorContainer.length; i++) {
+    colorContainer[i].addEventListener('click', e => {
+    const smallTextHex = colorContainer[i].firstElementChild.textContent;
+        document.body.style.backgroundColor = `${smallTextHex}`
+    })
+    
+}
+
