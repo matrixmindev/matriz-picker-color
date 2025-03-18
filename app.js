@@ -102,7 +102,7 @@ btnRgb.addEventListener("click", () => {
   h2[0].style.color = "#3ECF8E";
 
 
-  h2[2].textContent = Hex;
+  h2[2].textContent = 'Hex';
   h2[2].style.color = "#3ECF8E";
 
 });
